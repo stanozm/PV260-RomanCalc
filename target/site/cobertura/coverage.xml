@@ -1,0 +1,419 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.8974358974358975" branch-rate="1.0" lines-covered="70" lines-valid="78" branches-covered="8" branches-valid="8" complexity="1.28125" version="2.1.1" timestamp="1490833505576">
+	<sources>
+		<source>C:/Ja/MU/vyuka/Software quality/jaro2017/seminar4-unittesting/RomanCalc/src/main/java</source>
+		<source>--source</source>
+	</sources>
+	<packages>
+		<package name="pv260.romancalc.framework" line-rate="0.5" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="pv260.romancalc.framework.DataInput" filename="pv260/romancalc/framework/DataInput.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.framework.DataOutput" filename="pv260/romancalc/framework/DataOutput.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.framework.EquationBuilder" filename="pv260/romancalc/framework/EquationBuilder.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.framework.EquationNode" filename="pv260/romancalc/framework/EquationNode.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.framework.InvalidInputException" filename="pv260/romancalc/framework/InvalidInputException.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="6" hits="0" branch="false"/>
+								<line number="7" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="6" hits="0" branch="false"/>
+						<line number="7" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.framework.Lexer" filename="pv260/romancalc/framework/Lexer.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.framework.NoInputException" filename="pv260/romancalc/framework/NoInputException.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="6" hits="1" branch="false"/>
+								<line number="7" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="6" hits="1" branch="false"/>
+						<line number="7" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.framework.RomanCalculator" filename="pv260/romancalc/framework/RomanCalculator.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.framework.RomanTranslator" filename="pv260/romancalc/framework/RomanTranslator.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.framework.TokenStream" filename="pv260/romancalc/framework/TokenStream.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="pv260.romancalc.implementation" line-rate="0.9482758620689655" branch-rate="1.0" complexity="1.8181818181818181">
+			<classes>
+				<class name="pv260.romancalc.implementation.IteratorTokenStream" filename="pv260/romancalc/implementation/IteratorTokenStream.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Iterable;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="10" hits="11" branch="false"/>
+								<line number="11" hits="11" branch="false"/>
+								<line number="12" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="hasNext" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="16" hits="15" branch="false"/>
+							</lines>
+						</method>
+						<method name="next" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="27" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="10" hits="11" branch="false"/>
+						<line number="11" hits="11" branch="false"/>
+						<line number="12" hits="11" branch="false"/>
+						<line number="16" hits="15" branch="false"/>
+						<line number="21" hits="27" branch="false"/>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.implementation.RomanCalculatorImpl" filename="pv260/romancalc/implementation/RomanCalculatorImpl.java" line-rate="0.8571428571428571" branch-rate="1.0" complexity="3.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lpv260/romancalc/framework/Lexer;Lpv260/romancalc/framework/RomanTranslator;Lpv260/romancalc/framework/EquationBuilder;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="11" hits="2" branch="false"/>
+								<line number="12" hits="2" branch="false"/>
+								<line number="13" hits="2" branch="false"/>
+								<line number="14" hits="2" branch="false"/>
+								<line number="15" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="solve" signature="(Lpv260/romancalc/framework/DataInput;Lpv260/romancalc/framework/DataOutput;)V" line-rate="0.8125" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="2" branch="false"/>
+								<line number="22" hits="1" branch="false"/>
+								<line number="23" hits="1" branch="false"/>
+								<line number="24" hits="1" branch="false"/>
+								<line number="25" hits="1" branch="false"/>
+								<line number="26" hits="1" branch="false"/>
+								<line number="27" hits="1" branch="false"/>
+								<line number="30" hits="1" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="34" hits="1" branch="false"/>
+								<line number="35" hits="1" branch="false"/>
+								<line number="36" hits="1" branch="false"/>
+								<line number="37" hits="1" branch="false"/>
+								<line number="38" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="11" hits="2" branch="false"/>
+						<line number="12" hits="2" branch="false"/>
+						<line number="13" hits="2" branch="false"/>
+						<line number="14" hits="2" branch="false"/>
+						<line number="15" hits="2" branch="false"/>
+						<line number="21" hits="2" branch="false"/>
+						<line number="22" hits="1" branch="false"/>
+						<line number="23" hits="1" branch="false"/>
+						<line number="24" hits="1" branch="false"/>
+						<line number="25" hits="1" branch="false"/>
+						<line number="26" hits="1" branch="false"/>
+						<line number="27" hits="1" branch="false"/>
+						<line number="30" hits="1" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="34" hits="1" branch="false"/>
+						<line number="35" hits="1" branch="false"/>
+						<line number="36" hits="1" branch="false"/>
+						<line number="37" hits="1" branch="false"/>
+						<line number="38" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.implementation.RomanTranslatingTokenStream" filename="pv260/romancalc/implementation/RomanTranslatingTokenStream.java" line-rate="1.0" branch-rate="1.0" complexity="1.6666666666666667">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="10" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lpv260/romancalc/framework/TokenStream;Lpv260/romancalc/framework/RomanTranslator;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="15" hits="5" branch="false"/>
+								<line number="16" hits="5" branch="false"/>
+								<line number="17" hits="5" branch="false"/>
+								<line number="18" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="hasNext" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="22" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="next" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="27" hits="17" branch="false"/>
+								<line number="28" hits="17" branch="false"/>
+								<line number="29" hits="17" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="30" hits="10" branch="false"/>
+								<line number="32" hits="7" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="10" hits="1" branch="false"/>
+						<line number="15" hits="5" branch="false"/>
+						<line number="16" hits="5" branch="false"/>
+						<line number="17" hits="5" branch="false"/>
+						<line number="18" hits="5" branch="false"/>
+						<line number="22" hits="6" branch="false"/>
+						<line number="27" hits="17" branch="false"/>
+						<line number="28" hits="17" branch="false"/>
+						<line number="29" hits="17" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="30" hits="10" branch="false"/>
+						<line number="32" hits="7" branch="false"/>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.implementation.SimpleLexer" filename="pv260/romancalc/implementation/SimpleLexer.java" line-rate="1.0" branch-rate="1.0" complexity="2.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="15" hits="1" branch="false"/>
+								<line number="16" hits="1" branch="false"/>
+								<line number="17" hits="1" branch="false"/>
+								<line number="18" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="10" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="appendNumeralIfNotEmpty" signature="(Ljava/lang/StringBuilder;Ljava/util/List;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="42" hits="9" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="43" hits="7" branch="false"/>
+								<line number="44" hits="7" branch="false"/>
+								<line number="46" hits="9" branch="false"/>
+							</lines>
+						</method>
+						<method name="isOperator" signature="(C)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="38" hits="14" branch="false"/>
+							</lines>
+						</method>
+						<method name="tokenize" signature="(Ljava/lang/String;)Lpv260/romancalc/framework/TokenStream;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="22" hits="6" branch="false"/>
+								<line number="23" hits="6" branch="false"/>
+								<line number="24" hits="6" branch="false"/>
+								<line number="25" hits="20" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="26" hits="14" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="27" hits="3" branch="false"/>
+								<line number="28" hits="3" branch="false"/>
+								<line number="29" hits="3" branch="false"/>
+								<line number="31" hits="11" branch="false"/>
+								<line number="33" hits="6" branch="false"/>
+								<line number="34" hits="6" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="10" hits="6" branch="false"/>
+						<line number="15" hits="1" branch="false"/>
+						<line number="16" hits="1" branch="false"/>
+						<line number="17" hits="1" branch="false"/>
+						<line number="18" hits="1" branch="false"/>
+						<line number="22" hits="6" branch="false"/>
+						<line number="23" hits="6" branch="false"/>
+						<line number="24" hits="6" branch="false"/>
+						<line number="25" hits="20" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="26" hits="14" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="27" hits="3" branch="false"/>
+						<line number="28" hits="3" branch="false"/>
+						<line number="29" hits="3" branch="false"/>
+						<line number="31" hits="11" branch="false"/>
+						<line number="33" hits="6" branch="false"/>
+						<line number="34" hits="6" branch="false"/>
+						<line number="38" hits="14" branch="false"/>
+						<line number="42" hits="9" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="43" hits="7" branch="false"/>
+						<line number="44" hits="7" branch="false"/>
+						<line number="46" hits="9" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="pv260.romancalc.implementation.equation" line-rate="0.8125" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="pv260.romancalc.implementation.equation.NodeMinus" filename="pv260/romancalc/implementation/equation/NodeMinus.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lpv260/romancalc/framework/EquationNode;Lpv260/romancalc/framework/EquationNode;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="1" branch="false"/>
+								<line number="9" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="evaluate" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="8" hits="1" branch="false"/>
+						<line number="9" hits="1" branch="false"/>
+						<line number="13" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.implementation.equation.NodeNumber" filename="pv260/romancalc/implementation/equation/NodeNumber.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="9" hits="2" branch="false"/>
+								<line number="10" hits="2" branch="false"/>
+								<line number="11" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="evaluate" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="15" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="2" branch="false"/>
+						<line number="10" hits="2" branch="false"/>
+						<line number="11" hits="2" branch="false"/>
+						<line number="15" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.implementation.equation.NodeOperator" filename="pv260/romancalc/implementation/equation/NodeOperator.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lpv260/romancalc/framework/EquationNode;Lpv260/romancalc/framework/EquationNode;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="10" hits="1" branch="false"/>
+								<line number="11" hits="1" branch="false"/>
+								<line number="12" hits="1" branch="false"/>
+								<line number="13" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="left" signature="()Lpv260/romancalc/framework/EquationNode;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="16" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="right" signature="()Lpv260/romancalc/framework/EquationNode;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="10" hits="1" branch="false"/>
+						<line number="11" hits="1" branch="false"/>
+						<line number="12" hits="1" branch="false"/>
+						<line number="13" hits="1" branch="false"/>
+						<line number="16" hits="1" branch="false"/>
+						<line number="20" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="pv260.romancalc.implementation.equation.NodePlus" filename="pv260/romancalc/implementation/equation/NodePlus.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lpv260/romancalc/framework/EquationNode;Lpv260/romancalc/framework/EquationNode;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="0" branch="false"/>
+								<line number="9" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="evaluate" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="8" hits="0" branch="false"/>
+						<line number="9" hits="0" branch="false"/>
+						<line number="13" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
